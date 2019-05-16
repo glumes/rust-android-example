@@ -6,6 +6,7 @@ edition = "2018"
 
 [dependencies]
 jni = { version = "0.10.2" , default-features = false}
+android_logger = { version = "0.5.3"}
 
 [profile.release]
 lto = true
